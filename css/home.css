@@ -1,0 +1,60 @@
+
+#topMain {
+  margin: 8px;
+  /*background-color: lightyellow;*/
+  height: 270px;
+}
+
+div#myFace {
+  /*background-color: pink;*/
+  width: 38%;
+  height: 100%;
+  padding: 0px;
+  float: left;
+}
+
+
+#topRight {
+  text-align: center;
+  /*background-color: lightgreen;*/
+  width: 62%;
+  height: 100%;
+  float: right;
+}
+
+
+#meText {
+  text-align: justify;
+  width: 94%;
+  margin: 3%;
+  /*background-color: lightblue;*/
+}
+
+
+
+.contactBlock {
+  width: 100%;
+  height: 65px;
+  /*background-color: lightblue;*/
+  margin-bottom: 10px;
+}
+
+.contactText {
+  width: 68%;
+  margin-right: 10%;
+  /*background-color: gold;*/
+  /*border: 1px solid black;*/
+  float: right;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+
+.contactIcon {
+  width: 10%;
+  margin-left: 5%;
+  /*height: 100%;*/
+  padding: 5px;
+  /*background-color: turquoise;*/
+  float: left;
+}

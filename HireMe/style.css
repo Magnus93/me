@@ -1,0 +1,57 @@
+:root {
+	--back-col: #f6f6f6;
+	--main-col: #fff;
+	--top-col: lightblue;
+	--border-line: #bbb;
+}
+
+body {
+	background-color: var(--back-col); 
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+main {
+	background-color: var(--main-col);
+	border: 1px solid var(--border-line);
+	width: 745px;
+	height: 1050px;
+	margin: 50px auto;
+}
+
+#top {
+	background-color: var(--top-col);
+	height: 160px;
+}
+
+div.myinfo {
+	background-color: pink;
+}
+
+ul.myinfo {
+	list-style-type: none;
+	margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+	margin-left: 40px;
+	float: left;
+	display: inline;
+}
+
+p {
+	padding: 0px;
+	margin: 0px;
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+}
+

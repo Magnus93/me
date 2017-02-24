@@ -1,0 +1,11 @@
+
+
+var homeLink = {
+  "name": "Magnus Gustafsson",
+  "link": "index.html"
+}
+
+navLinks = {
+  "names": ["CV", "IT" ,"3D", "2D"],
+  "links": ["cv/CV_MagnusGustafsson.pdf", "it.php", "3d.php", "2d.php"]
+}

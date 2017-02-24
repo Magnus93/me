@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+:root {
+  --nav-col: #0ca0bf;
+  --body-col: #f5f5f5;
+  --main-col: white;
+  --main-border-col: #cacaca;
+  --hover-col: #087289;
+}
+
+
+body {
+  background-color: var(--body-col);
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+main {
+  background-color: var(--main-col);
+  border: 1px solid var(--main-border-col);
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 640px;
+}
+
+img {
+  width: 100%;
+}
+
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin-top: 0px;
+}

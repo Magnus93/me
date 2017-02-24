@@ -1,0 +1,16 @@
+var startMainInfo = {
+  "name":     "Magnus Gustafsson",
+  "subtitle": "Driven Programmerare",
+  "face": "myface_circle.png",
+  "contactInfo":  [
+    {
+      "icon": "phone.png",
+      "text":"073 578 00 09"
+    },
+    {
+      "icon": "mail.png",
+      "text":"magnus.ja.gustafsson@gmail.com"
+    }
+  ],
+  "textInfo": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat tincidunt mauris, et suscipit risus tempus et. Nulla vel nulla a lacus vehicula eleifend. Maecenas a condimentum magna. In a neque erat. Sed odio magna, interdum nec sodales non, ullamcorper a libero. Nunc et sapien arcu. Integer ut ultricies massa. Duis lectus ex, interdum ut ligula sed, aliquet efficitur lectus. Nunc et ex tincidunt, dapibus ligula et, accumsan nunc. Duis posuere hendrerit lorem, sit amet ultrices nunc tempor ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent vitae ex lorem. Morbi leo magna, pretium ac scelerisque sed, sollicitudin ac purus. Donec hendrerit sem eget malesuada aliquam. Sed non ullamcorper justo. "
+}

@@ -1,0 +1,20 @@
+
+
+
+
+.container {
+  background-color: lightgreen;
+}
+
+
+.imgContainer {
+  background-color: pink;
+  width: 66%;
+  /*float: left;*/
+}
+
+.infoContainer {
+  background-color: lightyellow;
+  width: 33%;
+  /*float: right;*/
+}

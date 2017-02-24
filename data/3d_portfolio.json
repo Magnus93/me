@@ -1,0 +1,33 @@
+{
+	"img3D":[
+		{
+			"type": "img",
+			"title": "TMNT",
+			"src": "Donatello.png",
+			"apps":["Inkscape.png","Photoshop.png"],
+			"paragraph": "This is bull that I have to write this for a third time"
+		},
+		{
+			"type": "img",
+			"title": "Lunatic!",
+			"src": "Moon_1.png",
+			"apps":["Inkscape.png","Photoshop.png"],
+			"paragraph": "This time I'll back this up for sure!"
+		},
+		{
+			"type": "img",
+			"title": "May the Force be with me.",
+			"src": "SithJedi.png",
+			"apps":["Inkscape.png"],
+			"paragraph": "If I were a jedi, I would surely be s sith. Seems much more fun to be evil and Impulsive then calm with no emotion."
+		},
+		{
+			"type": "img",
+			"title": "Don't hide behide a monitor",
+			"src": "Laptop.JPG",
+			"apps":["Inkscape.png"],
+			"paragraph": "Yep, I agree. This image is a bit to dark to see. But I'm to lazy to fix it."
+		}
+
+	]
+}
