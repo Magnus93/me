@@ -1,20 +1,36 @@
+main {
 
-
-
-
-.container {
-  background-color: lightgreen;
 }
 
+.container {
+  /*background-color: lightgreen;*/
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container > div {
+  display: inline-block;
+}
 
 .imgContainer {
-  background-color: pink;
+  /*background-color: pink;*/
   width: 66%;
+  height: 100%;
   /*float: left;*/
 }
 
 .infoContainer {
-  background-color: lightyellow;
+  /*background-color: lightyellow;*/
   width: 33%;
-  /*float: right;*/
+  height: 100%;
+  float: right;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.appLogo {
+  width: 45px;
 }

@@ -1,8 +1,7 @@
 <?php
-  $jsondata = file_get_contents("3d_portfolio.json");
+  $jsondata = file_get_contents("data/3d_portfolio.json");
   $json = json_decode($jsondata, true);
  ?>
-
 
 
  <!DOCTYPE html>
@@ -22,17 +21,45 @@
    </head>
    <body>
      <main>
-       <div class="container">
+       <?php
+        $imgPath='img/3d/';
+        $appPath='img/app_logos/';
+        foreach ($json['img3D'] as $key => $value) {
+          echo '<div class="container">';
+            echo '<div class="imgContainer">';
+              echo '<img src='.$imgPath.$value['src'].'>';
+            echo '</div>';
+            echo '<div class="infoContainer">';
+              echo '<h2>'.$value['title'].'</h2>';
+              foreach ($value['apps'] as $app) {
+                echo '<img class="appLogo" src='.$appPath.$app.'>';
+              }
+              echo '<p>Some text about it</p>';
+            echo '</div>';
+          echo '</div>';
+        }
+
+        ?>
+       <!--<div class="container">
          <div class="imgContainer">
-            <p>Here is an image or Video</p>
+            <img src="img/3d/Beer.png" alt="Here is an image or Video">
          </div>
          <div class="infoContainer">
-           <div class="titleContainer">
-             <h1>This is a title</h1>
-           </div>
+            <h1>This is a title</h1>
             <p>This is some info</p>
          </div>
        </div>
+       <div class="container">
+          <div class="imgContainer">
+            <img src="img/3d/Coke.png" alt="Coke here">
+          </div>
+          <div class="infoContainer">
+            <h1>Tiiiiitle</h1>
+            <img src="img/app_logos/3dsMax.png" alt="maxHere"   class="appLogo">
+            <img src="img/app_logos/photoshop.png" alt="psHere" class="appLogo">
+            <p>iiiiinfffffooooo!</p>
+          </div>
+       </div>-->
      </main>
    </body>
  </html>
