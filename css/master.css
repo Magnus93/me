@@ -21,7 +21,8 @@ main {
   margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
-  width: 640px;
+  /*width: 50%;*/
+  width: 940px;
 }
 
 img {
