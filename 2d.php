@@ -1,5 +1,5 @@
 <?php
-  $jsondata = file_get_contents("data/3d_portfolio.json");
+  $jsondata = file_get_contents("data/2d_portfolio.json");
   $json = json_decode($jsondata, true);
  ?>
 
@@ -8,7 +8,7 @@
  <html>
    <head>
      <meta charset="utf-8">
-     <title>Magnus Gustafsson - 3D</title>
+     <title>Magnus Gustafsson - 2D</title>
      <link rel="stylesheet" href="css/nav.css">
      <link rel="stylesheet" href="css/master.css">
      <link rel="stylesheet" href="css/3d.css">
@@ -17,14 +17,15 @@
      <script type="text/javascript" src="js/make_nav.js"></script>
      <script type="text/javascript">
         docLoadedNav(indexIsLoaded);
+        //setCurrentPage("2D");
      </script>
    </head>
    <body>
      <main>
        <?php
-        $imgPath='img/3d/';
+        $imgPath='img/2d/';
         $appPath='img/app_logos/';
-        foreach ($json['img3D'] as $key => $value) {
+        foreach ($json['img2D'] as $key => $value) {
           echo '<div class="container">';
             echo '<div class="imgContainer">';
             if ($value["type"] == "img" ) {

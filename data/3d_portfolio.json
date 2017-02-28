@@ -3,31 +3,72 @@
 		{
 			"type": "vid",
 			"title": "Showreel 2014",
-			"src": ["https://www.youtube.com/watch?v=rVbsUTJoodU"],
+			"src": ["https://www.youtube.com/embed/rVbsUTJoodU?ecver=2"],
 			"apps":[],
 			"paragraph": "My Showreel 2014"
 		},
 		{
-			"type": "img",
-			"title": "Coke",
-			"src": ["Coke.png"],
-			"apps":["3dsMax.png","Photoshop.png"],
-			"paragraph": "This is bull that I have to write this for a third time"
+			"type": "vid",
+			"title": "Katastrof Nyhetssändning",
+			"src": ["https://www.youtube.com/embed/jK8pVUm_wgc?ecver=2", "https://www.youtube.com/embed/vuAbdjaIdfw?ecver=2"],
+			"apps":["3dsMax.png", "Photoshop.png", "AfterEffects.png", "Premiere.png"],
+			"paragraph": ""
 		},
 		{
 			"type": "img",
-			"title": "Carlsburg",
-			"src": ["Beer.png"],
+			"title": "Vardagsrum",
+			"src": ["LivingroomDay01.jpg", "LivingroomNight02MagnusGustafsson.jpg"],
 			"apps":["3dsMax.png","Photoshop.png"],
-			"paragraph": "This time I'll back this up for sure!"
+			"paragraph": ""
 		},
 		{
 			"type": "img",
-			"title": "Don't hide behide a monitor",
+			"title": "CAD-visualization",
 			"src": ["Helmet.png", "Mouse.png"],
-			"apps":["Inkscape.png"],
-			"paragraph": "Yep, I agree. This image is a bit to dark to see. But I'm to lazy to fix it."
+			"apps":["3dsMax.png", "Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "TOR-Projekt",
+			"src": ["https://www.youtube.com/embed/ENte7Ezu6nQ?ecver=2", "https://www.youtube.com/embed/Qf857cWFqSM?ecver=2"],
+			"apps":["3dsMax.png", "Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Drycker",
+			"src": ["Coke.png", "Beer.png"],
+			"apps":["3dsMax.png","Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "Carlsburg animerad",
+			"src": ["https://www.youtube.com/embed/b6Z4BRuw-20?ecver=2"],
+			"apps":["3dsMax.png", "Photoshop.png", "AfterEffects.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "Smart Grid Gotland - CGD Visualization",
+			"src": ["https://www.youtube.com/embed/IQbm7XGuCn4?ecver=2"],
+			"apps":["3dsMax.png", "AfterEffects.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "Sagoberättelse - Farbror Ballong (Video)",
+			"src": ["https://www.youtube.com/embed/PvuL2cuNF_A?ecver=2"],
+			"apps":["3dsMax.png", "Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Sagoberättelse - Farbror Ballong (Bilder)",
+			"src": ["Bild2.jpg", "Bild12.jpg"],
+			"apps":["3dsMax.png", "Photoshop.png"],
+			"paragraph": ""
 		}
-
 	]
 }

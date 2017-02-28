@@ -1,7 +1,8 @@
 
 function docLoadedNav(fn) {
 	if (document.readyState !== 'loading') {
-		fn();
+		//console.log(pageStatus);
+		fn(currentPageName);
 	} else {
 		document.addEventListener('DOMContentLoaded', fn);
 		console.log('Waiting!');
@@ -12,8 +13,15 @@ function indexIsLoaded() {
 	displayNav();
 }
 
+function setCurrentPage(page) {
+	while (document.readyState == 'loading') {}
 
-function displayNav() {
+	var li = document.getElementById(page);
+	console.log(li);
+	li.setAttribute("style", "background-color: pink");
+}
+
+function displayNav(currentPageName) {
   console.log("Displaying Nav!");
   var nav = document.createElement("nav");
 	console.log("homeLink:"+ homeLink);
@@ -33,6 +41,7 @@ function getName(home) {
   nameLink.href= home.link;
   nameLink.setAttribute("class","nav");
   var nameNode = document.createTextNode(home.name);
+	nameLink.setAttribute("title", "Hem")
   nameLink.appendChild(nameNode);
   nameH1.appendChild(nameLink);
   return nameH1;
@@ -45,6 +54,7 @@ function getPages(navLnks) {
   for (var i = 0; i < navLnks.links.length; i++) {
     var li = document.createElement("li");
     var a = document.createElement("a");
+		li.setAttribute("id",navLnks.names[i]);
     a.setAttribute("href", navLnks.links[i]);
     var name = document.createTextNode(navLnks.names[i]);
 
