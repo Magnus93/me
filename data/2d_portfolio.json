@@ -9,9 +9,30 @@
 		},
 		{
 			"type": "img",
-			"title": "Lunatic!",
+			"title": "Ctrl + Z",
+			"src": ["Crash.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Blubb",
 			"src": ["Moon_1.png"],
-			"apps":["Inkscape.png","Photoshop.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "IT",
+			"src": ["IT_button.png", "IT_laptop01.png", "IT_laptop02.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": "Fel fel fel fel fel!"
+		},
+		{
+			"type": "img",
+			"title": "Blub",
+			"src": ["controller.png"],
+			"apps":["Inkscape.png"],
 			"paragraph": ""
 		},
 		{

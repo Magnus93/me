@@ -1,11 +1,24 @@
-
-
-var homeLink = {
-  "name": "Magnus Gustafsson",
-  "link": "index.html"
-}
-
-navLinks = {
-  "names": ["CV", "IT" ,"3D", "2D"],
-  "links": ["cv/CV_MagnusGustafsson.pdf", "it.php", "3d.php", "2d.php"]
+{
+  "homeLink" : {
+    "name": "Magnus Gustafsson",
+    "link": "index.php"
+  },
+  "navLinks": [
+      {
+      "name": "CV",
+      "link": "cv/CV_MagnusGustafsson.pdf"
+    },
+    {
+      "name": "IT",
+      "link": "it.php"
+    },
+    {
+      "name": "3D",
+      "link": "3d.php"
+    },
+    {
+      "name": "2D",
+      "link": "2d.php"
+    }
+  ]
 }

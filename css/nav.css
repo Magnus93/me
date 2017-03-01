@@ -21,6 +21,7 @@ nav {
   float:left;
   margin-left: 5px;
   margin-bottom: 4px;
+
 }
 
 #pages {
@@ -29,17 +30,24 @@ nav {
   float:right;
   margin: 0;
 }
- li {
-   font-size: 25px;
-   float: left;
- }
- li a {
+li {
+  font-size: 25px;
+  float: left;
+}
+
+li a {
    display: block;
    color: white;
    padding: 8px 30px;
    text-decoration: none;
- }
- li a:hover {
-   background-color: var(--hover-col);
+}
 
- }
+li#selectedPage a {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #FF820A;
+  /*background-color: pink;*/
+}
+
+li a:hover {
+   background-color: var(--hover-col);
+}

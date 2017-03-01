@@ -10,7 +10,7 @@ function docLoaded(fn) {
 }
 
 function indexIsLoaded() {
-	displayNav();
+	//displayNav();
   displayMain();
 }
 

@@ -1,8 +1,9 @@
 <?php
   $jsondata = file_get_contents("data/2d_portfolio.json");
   $json = json_decode($jsondata, true);
+  $jsondataNav = file_get_contents("data/nav_info.json");
+  $jsonNav = json_decode($jsondataNav, true);
  ?>
-
 
  <!DOCTYPE html>
  <html>
@@ -12,15 +13,14 @@
      <link rel="stylesheet" href="css/nav.css">
      <link rel="stylesheet" href="css/master.css">
      <link rel="stylesheet" href="css/3d.css">
-     <script type="text/javascript" src="data/nav_info.json">
-     </script>
+     <script type="text/javascript" src="data/nav_info.json"></script>
      <script type="text/javascript" src="js/make_nav.js"></script>
-     <script type="text/javascript">
-        docLoadedNav(indexIsLoaded);
-        //setCurrentPage("2D");
-     </script>
    </head>
    <body>
+    <?php
+      $currentPage = "2D";
+      include('navigation.php');
+    ?>
      <main>
        <?php
         $imgPath='img/2d/';
