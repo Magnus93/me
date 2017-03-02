@@ -1,0 +1,131 @@
+{
+	"img3D":[
+		{
+			"type": "vid",
+			"title": "Showreel 2014",
+			"src": ["https://www.youtube.com/embed/rVbsUTJoodU?ecver=2"],
+			"apps":[],
+			"paragraph": "My Showreel 2014"
+		},
+		{
+			"type": "vid",
+			"title": "Katastrof Nyhetssändning",
+			"src": ["https://www.youtube.com/embed/jK8pVUm_wgc?ecver=2", "https://www.youtube.com/embed/vuAbdjaIdfw?ecver=2"],
+			"apps":["3dsMax.png", "Photoshop.png", "AfterEffects.png", "Premiere.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Vardagsrum",
+			"src": ["LivingroomDay01.jpg", "LivingroomNight02MagnusGustafsson.jpg"],
+			"apps":["3dsMax.png","Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "CAD-visualization",
+			"src": ["Helmet.png", "Mouse.png"],
+			"apps":["3dsMax.png", "Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "TOR-Projekt",
+			"src": ["https://www.youtube.com/embed/ENte7Ezu6nQ?ecver=2", "https://www.youtube.com/embed/Qf857cWFqSM?ecver=2"],
+			"apps":["3dsMax.png", "Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Drycker",
+			"src": ["Coke.png", "Beer.png"],
+			"apps":["3dsMax.png","Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "Carlsburg animerad",
+			"src": ["https://www.youtube.com/embed/b6Z4BRuw-20?ecver=2"],
+			"apps":["3dsMax.png", "Photoshop.png", "AfterEffects.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "Smart Grid Gotland - CGD Visualization",
+			"src": ["https://www.youtube.com/embed/IQbm7XGuCn4?ecver=2"],
+			"apps":["3dsMax.png", "AfterEffects.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "Sagoberättelse - Farbror Ballong (Video)",
+			"src": ["https://www.youtube.com/embed/PvuL2cuNF_A?ecver=2"],
+			"apps":["3dsMax.png", "Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Sagoberättelse - Farbror Ballong (Bilder)",
+			"src": ["Bild2.jpg", "Bild12.jpg"],
+			"apps":["3dsMax.png", "Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "TMNT",
+			"src": ["Donatello.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Ctrl + Z",
+			"src": ["Crash.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Blubb",
+			"src": ["Moon_1.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "IT",
+			"src": ["IT_button.png", "IT_laptop01.png", "IT_laptop02.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": "Fel fel fel fel fel!"
+		},
+		{
+			"type": "img",
+			"title": "Blub",
+			"src": ["controller.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "May the Force be with me.",
+			"src": ["SithJedi.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "vid",
+			"title": "May the Force be with me.",
+			"src": ["https://www.youtube.com/embed/_U7GAQR6Uc4?ecver=2"],
+			"apps":["Inkscape.png", "AfterEffects.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Don't hide behide a monitor",
+			"src": ["Laptop.JPG"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
+		}
+
+	]
+}

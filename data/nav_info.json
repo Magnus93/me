@@ -13,12 +13,12 @@
       "link": "it.php"
     },
     {
-      "name": "3D",
-      "link": "3d.php"
+      "name": "Graphics",
+      "link": "graphics.php"
     },
     {
-      "name": "2D",
-      "link": "2d.php"
+      "name": "Contact",
+      "link": "contact.php"
     }
   ]
 }

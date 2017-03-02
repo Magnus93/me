@@ -1,12 +1,19 @@
 [
   {
-    "title": "",
+    "title": "Matrix Screen",
+    "img": "matrixScreenShot.png",
+    "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
+    "paragraph": "Works best in Google Chrome",
+    "link": "http://magnusgustafsson.com/matrix/"
+  },
+  {
+    "title": "Sudoku-solver Haskell",
     "img": "",
-    "apps": [],
+    "apps": ["Haskell"],
     "paragraph": ""
   },
   {
-    "title": "",
+    "title": "Graph Calculator Python",
     "img": "",
     "apps": [],
     "paragraph": ""

@@ -1,0 +1,18 @@
+
+
+
+.container {
+  background-color: pink
+  width: 100%;
+  margin: 10px;
+}
+
+.imgContainer {
+  background-color: aqua;
+  width: 50%;
+}
+
+.infoContainer {
+  background-color: purple;
+  width: 50%;
+}
