@@ -26,7 +26,7 @@
        <?php
         $imgPath='img/graphics/';
         $appPath='img/app_logos/';
-        foreach ($json['img3D'] as $key => $value) {
+        foreach ($json['img3D'] as $value) {
           echo '<div class="container">';
             echo '<div class="imgContainer">';
             if ($value["type"] == "img" ) {

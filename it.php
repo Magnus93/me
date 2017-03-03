@@ -1,6 +1,6 @@
 <?php
   $jsondataIt = file_get_contents("data/it.json");
-  $jsonIt = json_decode($jsondata, true);
+  $jsonIt = json_decode($jsondataIt, true);
   $jsondataNav = file_get_contents("data/nav_info.json");
   $jsonNav = json_decode($jsondataNav, true);
  ?>
@@ -20,16 +20,27 @@
      include('navigation.php');
       ?>
      <main>
-       <p>Hejsan</p>
        <?php
-       echo "This is in php";
-
+       $imgPath='img/it/';
         foreach ($jsonIt as $value) {
-          echo $value["title"];
+          echo '<div class="container">';
+            echo '<div class="imgContainer">';
+              echo '<img src='.$imgPath.$value["img"].' class="itImg" >';
+            echo '</div>';
+            echo '<div class="infoContainer">';
+              echo '<h2>'.$value["title"].'</h2>';
+              foreach ($value["apps"] as $app) {
+                echo '<p class="app">'.$app.'</p>';
+              }
+              echo '<p>'.$value["paragraph"].'</p>';
+              if ($value["link"]) {
+                echo '<a href='.$value["link"].' class="tryLink">Try it</a>';
+              }
+            echo '</div>';
+          echo '</div>';
           //echo '<p>'.$value["paragraph"].'</p>';
         }
        ?>
-       <p>Hej igen</p>
      </main>
 
    </body>

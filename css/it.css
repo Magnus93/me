@@ -2,17 +2,52 @@
 
 
 .container {
-  background-color: pink
-  width: 100%;
-  margin: 10px;
+  /*background-color: pink;*/
+  width: 98%;
+  margin: 30px 10px 30px 10px;
+}
+
+.container > div {
+  display: inline-block;
 }
 
 .imgContainer {
-  background-color: aqua;
-  width: 50%;
+  /*background-color: aquamarine;*/
+  width: 49%;
+  margin: auto;
+  /*border-right: 1px solid red;*/
+}
+
+.imgContainer > img {
+  width: 75%;
+  margin: auto;
+  display: block;
+  padding: 15px;
+  border: 1px solid var(--border-col);
 }
 
 .infoContainer {
-  background-color: purple;
+  /*background-color: hotpink;*/
   width: 50%;
+  float: right;
+}
+
+.app {
+  background-color: #ddd;
+  display: inline-block;
+  margin: 0 10px 0px 0px;
+  padding: 3px 10px;
+}
+
+
+.tryLink {
+  text-decoration: none;
+  background-color: var(--nav-col);
+  color: white;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+
+.tryLink:hover {
+  background-color: var(--hover-col);
 }

@@ -1,5 +1,11 @@
 [
   {
+    "title": "Kronk",
+    "img": "placeHolder.png",
+    "apps": ["Unity3D", "C#", "3dsMax"],
+    "paragraph": "Project made in Unity3D by 6 people and I had the sole task of programming everything in the game"
+  },
+  {
     "title": "Matrix Screen",
     "img": "matrixScreenShot.png",
     "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
@@ -8,13 +14,13 @@
   },
   {
     "title": "Sudoku-solver Haskell",
-    "img": "",
+    "img": "placeHolder.png",
     "apps": ["Haskell"],
     "paragraph": ""
   },
   {
     "title": "Graph Calculator Python",
-    "img": "",
+    "img": "placeHolder.png",
     "apps": [],
     "paragraph": ""
   }
