@@ -14,14 +14,41 @@
   },
   {
     "title": "Sudoku-solver Haskell",
-    "img": "placeHolder.png",
+    "img": "sudoku.png",
     "apps": ["Haskell"],
     "paragraph": ""
   },
   {
     "title": "Graph Calculator Python",
-    "img": "placeHolder.png",
-    "apps": [],
+    "img": "GraphCalc.png",
+    "apps": ["Python", "wxPython", "SymPy"],
     "paragraph": ""
+  },
+  {
+    "title": "3D Projection",
+    "img": "3dPython.png",
+    "apps": ["Python", "PyGame"],
+    "paragraph": "texthere"
+  },
+  {
+    "title": "Bumpmap to Normalmap",
+    "img": "BumpNormalMap.png",
+    "apps": ["Python", "PyGame", "wxPython"],
+    "paragraph": "texthere"
+  },
+  {
+    "title": "Flying Christmas Tree",
+    "img": "placeHolder.png",
+    "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
+    "paragraph": "texthere",
+    "link": "http://magnusgustafsson.com/tannenbaum/"
+  },
+  {
+    "title": "Scottify your english",
+    "img": "placeHolder.png",
+    "apps": ["HTML", "JavaScript"],
+    "paragraph": "texthere",
+    "link": "http://www.magnusgustafsson.com/scottish/"
   }
+
 ]

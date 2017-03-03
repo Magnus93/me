@@ -1,0 +1,16 @@
+{
+  "name":     "Magnus Gustafsson",
+  "subtitle": "Driven Programmerare",
+  "face": "myface_circle.png",
+  "contactInfo":  [
+    {
+      "icon": "phone.png",
+      "text":"073 578 00 09"
+    },
+    {
+      "icon": "mail.png",
+      "text":"magnus.ja.gustafsson@gmail.com"
+    }
+  ],
+  "textInfo": "Magnus is cool! JAG ÄR REN ENERGI I MIG SJÄLV!!!"
+}

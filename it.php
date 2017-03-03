@@ -16,9 +16,9 @@
    </head>
    <body>
      <?php
-     $currentPage = "IT";
-     include('navigation.php');
-      ?>
+      $currentPage = "IT";
+      include('navigation.php');
+     ?>
      <main>
        <?php
        $imgPath='img/it/';

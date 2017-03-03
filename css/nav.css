@@ -10,6 +10,7 @@ nav {
   border-bottom-style: double;
   border-color: var(--body-col);
 	position: fixed;
+  padding-left: 5px;
 }
 
 .nav {
@@ -19,9 +20,7 @@ nav {
   font-size: 34px;
   text-decoration: none;
   float:left;
-  margin-left: 5px;
-  margin-bottom: 4px;
-
+  /*margin-left: 5px;*/
 }
 
 #pages {
@@ -47,6 +46,15 @@ li#selectedPage a {
   border-bottom: 3px solid #FF820A;
   /*background-color: pink;*/
 }
+
+
+.nav#selectedPage h1 {
+  padding-bottom: 1px;
+  border-bottom: 3px solid var(--complement-col);
+  /*background-color: blue;*/
+}
+
+
 
 li a:hover {
    background-color: var(--hover-col);

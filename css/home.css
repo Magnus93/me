@@ -31,6 +31,23 @@ div#myFace {
   /*background-color: lightblue;*/
 }
 
+td {
+  /*border: 1px solid blue;*/
+  padding: 15px;
+}
+
+table {
+  /*border: 1px dashed red;*/
+  text-align: left;
+  width: 70%;
+  margin: auto;
+  /*margin-top: 40px;*/
+  /*margin-bottom: 80px;*/
+}
+
+.icon {
+  width: 20%;
+}
 
 
 .contactBlock {

@@ -1,0 +1,23 @@
+
+
+td {
+  /*border: 1px solid blue;*/
+  padding: 15px;
+}
+
+table {
+  /*border: 1px dashed red;*/
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.icon {
+  width: 15%;
+}
+
+.info {
+
+}
