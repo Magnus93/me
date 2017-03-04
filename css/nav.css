@@ -29,6 +29,7 @@ nav {
   float:right;
   margin: 0;
 }
+
 li {
   font-size: 21px;
   float: left;
@@ -46,8 +47,6 @@ li#selectedPage a {
   border-bottom: 3px solid #FF820A;
   /*background-color: pink;*/
 }
-
-
 
 
 li a:hover {

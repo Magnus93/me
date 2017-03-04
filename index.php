@@ -16,7 +16,7 @@
   </head>
   <body>
     <?php
-     $currentPage = "home";
+     $currentPage = "Hem";
      include('navigation.php');
     ?>
     <main>

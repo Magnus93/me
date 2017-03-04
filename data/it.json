@@ -3,7 +3,7 @@
     "title": "Min portfolio hemsida",
     "img": "portfolio.png",
     "apps": ["PHP", "CSS", "JSON"],
-    "paragraph": "Denna hemsida är helt skriven av mig för att jag ville lära mig PHP."
+    "paragraph": "Detta är min portfolio-hemsida där jag visar mina projekt."
   },
   {
     "title": "Kronk",

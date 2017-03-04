@@ -1,6 +1,13 @@
 {
 	"img3D":[
 		{
+			"type": "img",
+			"title": "Vardagsrum",
+			"src": ["LivingroomDay01.jpg", "LivingroomNight02MagnusGustafsson.jpg"],
+			"apps":["3dsMax.png","V-Ray.png","Photoshop.png"],
+			"paragraph": "I denna scen har jag gjort allt förutom böckerna i bokhyllan."
+		},
+		{
 			"type": "vid",
 			"title": "Showreel 2014",
 			"src": ["https://www.youtube.com/embed/rVbsUTJoodU?ecver=2"],
@@ -15,39 +22,25 @@
 			"paragraph": "Detta var ett skolprojekt där vi skulle skapa en nyhetssändning där en katastrof sker. Vi valde att soviet invaderar Göteborg under 70-talet. <br><br>Det nedre klippet var det jag som hade ansvar för och fixade det mesta på."
 		},
 		{
-			"type": "img",
-			"title": "Vardagsrum",
-			"src": ["LivingroomDay01.jpg", "LivingroomNight02MagnusGustafsson.jpg"],
-			"apps":["3dsMax.png","V-Ray.png","Photoshop.png"],
-			"paragraph": "I denna scen har jag gjort allt förutom böckerna i bokhyllan."
-		},
-		{
-			"type": "img",
-			"title": "CAD-visualization",
-			"src": ["Helmet.png", "Mouse.png"],
-			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png"],
-			"paragraph": "Detta var en uppgift att visualisera redan gjorda CAD-objekt. Så jag har inte medellerat objekten. Men jag har materialsatt, belyst, renderat och photoshopat dem."
-		},
-		{
 			"type": "vid",
 			"title": "TOR-Projekt",
 			"src": ["https://www.youtube.com/embed/ENte7Ezu6nQ?ecver=2", "https://www.youtube.com/embed/Qf857cWFqSM?ecver=2"],
 			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png"],
-			"paragraph": ""
+			"paragraph": "I detta grupp-projekt animerade jag b.l.a. roboten som synns på den nedre klippet."
 		},
 		{
 			"type": "img",
-			"title": "Drycker",
-			"src": ["Coke.png", "Beer.png"],
+			"title": "Cola",
+			"src": ["Coke.png"],
 			"apps":["3dsMax.png", "V-Ray.png","Photoshop.png"],
 			"paragraph": ""
 		},
 		{
 			"type": "vid",
-			"title": "Carlsburg animerad",
+			"title": "Carlsburg",
 			"src": ["https://www.youtube.com/embed/b6Z4BRuw-20?ecver=2"],
 			"apps":["3dsMax.png","V-Ray.png", "Photoshop.png", "AfterEffects.png"],
-			"paragraph": ""
+			"paragraph": "Mitt försök att efterlikna den klassiska Carlsburg-stilen"
 		},
 		{
 			"type": "vid",
@@ -86,38 +79,10 @@
 		},
 		{
 			"type": "img",
-			"title": "TMNT",
-			"src": ["Donatello.png"],
-			"apps":["Inkscape.png"],
-			"paragraph": ""
-		},
-		{
-			"type": "img",
-			"title": "Måne",
-			"src": ["Moon_1.png"],
-			"apps":["Inkscape.png"],
-			"paragraph": "Jag ville ha en finnare ikon på Steam. Detta var resultatet."
-		},
-		{
-			"type": "img",
 			"title": "IT",
 			"src": ["IT_button.png", "IT_laptop01.png", "IT_laptop02.png"],
 			"apps":["Inkscape.png"],
 			"paragraph": "IT-sektionen på Uppsala Universitet behövde en ny officiel logga, så jag skickade in de här förslagen."
-		},
-		{
-			"type": "img",
-			"title": "May the Force be with me.",
-			"src": ["SithJedi.png"],
-			"apps":["Inkscape.png"],
-			"paragraph": ""
-		},
-		{
-			"type": "vid",
-			"title": "May the Force be with me.",
-			"src": ["https://www.youtube.com/embed/_U7GAQR6Uc4?ecver=2"],
-			"apps":["Inkscape.png", "AfterEffects.png"],
-			"paragraph": ""
 		},
 		{
 			"type": "img",
@@ -128,10 +93,10 @@
 		},
 		{
 			"type": "img",
-			"title": "Ctrl + Z",
-			"src": ["Crash.png"],
-			"apps":["Inkscape.png"],
-			"paragraph": ""
+			"title": "CAD-visualization",
+			"src": ["Helmet.png", "Mouse.png"],
+			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png"],
+			"paragraph": "Detta var en uppgift att visualisera redan gjorda CAD-objekt. Så jag har inte medellerat objekten. Men jag har materialsatt, belyst, renderat och photoshopat dem."
 		}
 	]
 }
