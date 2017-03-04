@@ -31,19 +31,19 @@ nav {
 }
 
 li {
-  font-size: 21px;
+  font-size: 19px;
   float: left;
 }
 
 li a {
    display: block;
    color: white;
-   padding: 11px 30px;
+   padding: 12px 23px;
    text-decoration: none;
 }
 
 li#selectedPage a {
-  padding-bottom: 8px;
+  padding-bottom: 10px;
   border-bottom: 3px solid #FF820A;
   /*background-color: pink;*/
 }
