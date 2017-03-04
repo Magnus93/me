@@ -11,63 +11,63 @@
 			"type": "vid",
 			"title": "Katastrof nyhetssändning",
 			"src": ["https://www.youtube.com/embed/jK8pVUm_wgc?ecver=2", "https://www.youtube.com/embed/vuAbdjaIdfw?ecver=2"],
-			"apps":["3dsMax.png", "Photoshop.png", "AfterEffects.png", "Premiere.png"],
+			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png", "AfterEffects.png", "Premiere.png"],
 			"paragraph": "Detta var ett skolprojekt där vi skulle skapa en nyhetssändning där en katastrof sker. Vi valde att soviet invaderar Göteborg under 70-talet. <br><br>Det nedre klippet var det jag som hade ansvar för och fixade det mesta på."
 		},
 		{
 			"type": "img",
 			"title": "Vardagsrum",
 			"src": ["LivingroomDay01.jpg", "LivingroomNight02MagnusGustafsson.jpg"],
-			"apps":["3dsMax.png","Photoshop.png"],
-			"paragraph": ""
+			"apps":["3dsMax.png","V-Ray.png","Photoshop.png"],
+			"paragraph": "I denna scen har jag gjort allt förutom böckerna i bokhyllan."
 		},
 		{
 			"type": "img",
 			"title": "CAD-visualization",
 			"src": ["Helmet.png", "Mouse.png"],
-			"apps":["3dsMax.png", "Photoshop.png"],
-			"paragraph": ""
+			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png"],
+			"paragraph": "Detta var en uppgift att visualisera redan gjorda CAD-objekt. Så jag har inte medellerat objekten. Men jag har materialsatt, belyst, renderat och photoshopat dem."
 		},
 		{
 			"type": "vid",
 			"title": "TOR-Projekt",
 			"src": ["https://www.youtube.com/embed/ENte7Ezu6nQ?ecver=2", "https://www.youtube.com/embed/Qf857cWFqSM?ecver=2"],
-			"apps":["3dsMax.png", "Photoshop.png"],
+			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png"],
 			"paragraph": ""
 		},
 		{
 			"type": "img",
 			"title": "Drycker",
 			"src": ["Coke.png", "Beer.png"],
-			"apps":["3dsMax.png","Photoshop.png"],
+			"apps":["3dsMax.png", "V-Ray.png","Photoshop.png"],
 			"paragraph": ""
 		},
 		{
 			"type": "vid",
 			"title": "Carlsburg animerad",
 			"src": ["https://www.youtube.com/embed/b6Z4BRuw-20?ecver=2"],
-			"apps":["3dsMax.png", "Photoshop.png", "AfterEffects.png"],
+			"apps":["3dsMax.png","V-Ray.png", "Photoshop.png", "AfterEffects.png"],
 			"paragraph": ""
 		},
 		{
 			"type": "vid",
 			"title": "Smart Grid Gotland - CGD Visualization",
 			"src": ["https://www.youtube.com/embed/IQbm7XGuCn4?ecver=2"],
-			"apps":["3dsMax.png", "AfterEffects.png"],
+			"apps":["3dsMax.png","V-Ray.png", "AfterEffects.png"],
 			"paragraph": ""
 		},
 		{
 			"type": "vid",
 			"title": "Sagoberättelse - Farbror Ballong (Video)",
 			"src": ["https://www.youtube.com/embed/PvuL2cuNF_A?ecver=2"],
-			"apps":["3dsMax.png", "Photoshop.png"],
+			"apps":["3dsMax.png","V-Ray.png", "Photoshop.png", "Premiere.png"],
 			"paragraph": ""
 		},
 		{
 			"type": "img",
 			"title": "Sagoberättelse - Farbror Ballong (Bilder)",
 			"src": ["Bild2.jpg", "Bild12.jpg"],
-			"apps":["3dsMax.png", "Photoshop.png"],
+			"apps":["3dsMax.png","V-Ray.png", "Photoshop.png"],
 			"paragraph": ""
 		},
 		{
@@ -96,7 +96,7 @@
 			"title": "Måne",
 			"src": ["Moon_1.png"],
 			"apps":["Inkscape.png"],
-			"paragraph": ""
+			"paragraph": "Jag ville ha en finnare ikon på Steam. Detta var resultatet."
 		},
 		{
 			"type": "img",

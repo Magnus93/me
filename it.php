@@ -34,7 +34,7 @@
               }
               echo '<p>'.$value["paragraph"].'</p>';
               if ($value["link"]) {
-                echo '<a target="_blank" href='.$value["link"].' class="tryLink">Try it</a>';
+                echo '<a target="_blank" href='.$value["link"].' class="tryLink">Testa</a>';
               }
             echo '</div>';
           echo '</div>';
