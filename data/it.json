@@ -9,7 +9,7 @@
     "title": "Kronk",
     "img": "Kronk01.png",
     "apps": ["Unity3D", "C#", "3dsMax"],
-    "paragraph": "Project made in Unity3D by 6 people and I had the sole task of programming everything in the game"
+    "paragraph": "Första projekt i Unity3D och första erfarenheten med C# där jag hade hela ansvaret att skriva logiken för spelet, detta innebär b.l.a. stryra spelaren, få kameran att föja spelaren med mjuka rörelser, hålla reda på spelarns poäng och liv m.m."
   },
   {
     "title": "Wermlandskällar'n - Värmlands Nation",
