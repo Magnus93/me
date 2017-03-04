@@ -5,14 +5,14 @@
 			"title": "Showreel 2014",
 			"src": ["https://www.youtube.com/embed/rVbsUTJoodU?ecver=2"],
 			"apps":[],
-			"paragraph": "My Showreel 2014"
+			"paragraph": ""
 		},
 		{
 			"type": "vid",
-			"title": "Katastrof Nyhetssändning",
+			"title": "Katastrof nyhetssändning",
 			"src": ["https://www.youtube.com/embed/jK8pVUm_wgc?ecver=2", "https://www.youtube.com/embed/vuAbdjaIdfw?ecver=2"],
 			"apps":["3dsMax.png", "Photoshop.png", "AfterEffects.png", "Premiere.png"],
-			"paragraph": ""
+			"paragraph": "Detta var ett skolprojekt där vi skulle skapa en nyhetssändning där en katastrof sker. Vi valde att soviet invaderar Göteborg under 70-talet. <br><br>Det nedre klippet var det jag som hade ansvar för och fixade det mesta på."
 		},
 		{
 			"type": "img",
@@ -72,6 +72,20 @@
 		},
 		{
 			"type": "img",
+			"title": "PSP",
+			"src": ["psp.png"],
+			"apps":["Photoshop.png"],
+			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Generisk gamepad",
+			"src": ["controller.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": "Min bror jobbade på ett spel och ville ha en generisk gamepad för att visa kontrollen i spelet."
+		},
+		{
+			"type": "img",
 			"title": "TMNT",
 			"src": ["Donatello.png"],
 			"apps":["Inkscape.png"],
@@ -79,14 +93,7 @@
 		},
 		{
 			"type": "img",
-			"title": "Ctrl + Z",
-			"src": ["Crash.png"],
-			"apps":["Inkscape.png"],
-			"paragraph": ""
-		},
-		{
-			"type": "img",
-			"title": "Blubb",
+			"title": "Måne",
 			"src": ["Moon_1.png"],
 			"apps":["Inkscape.png"],
 			"paragraph": ""
@@ -96,14 +103,7 @@
 			"title": "IT",
 			"src": ["IT_button.png", "IT_laptop01.png", "IT_laptop02.png"],
 			"apps":["Inkscape.png"],
-			"paragraph": "Fel fel fel fel fel!"
-		},
-		{
-			"type": "img",
-			"title": "Blub",
-			"src": ["controller.png"],
-			"apps":["Inkscape.png"],
-			"paragraph": ""
+			"paragraph": "IT-sektionen på Uppsala Universitet behövde en ny officiel logga, så jag skickade in de här förslagen."
 		},
 		{
 			"type": "img",
@@ -121,11 +121,17 @@
 		},
 		{
 			"type": "img",
-			"title": "Don't hide behide a monitor",
+			"title": "Hiding behind the monitor",
 			"src": ["Laptop.JPG"],
 			"apps":["Inkscape.png"],
 			"paragraph": ""
+		},
+		{
+			"type": "img",
+			"title": "Ctrl + Z",
+			"src": ["Crash.png"],
+			"apps":["Inkscape.png"],
+			"paragraph": ""
 		}
-
 	]
 }

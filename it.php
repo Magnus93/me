@@ -1,7 +1,7 @@
 <?php
   $jsondataIt = file_get_contents("data/it.json");
   $jsonIt = json_decode($jsondataIt, true);
-  $jsondataNav = file_get_contents("data/nav_info.json");
+  $jsondataNav = file_get_contents("data/nav.json");
   $jsonNav = json_decode($jsondataNav, true);
  ?>
 
@@ -12,11 +12,11 @@
      <link rel="stylesheet" href="css/nav.css">
      <link rel="stylesheet" href="css/master.css">
      <link rel="stylesheet" href="css/it.css">
-     <title>Magnus Gustafsson - IT</title>
+     <title>Magnus Gustafsson - Prog.</title>
    </head>
    <body>
      <?php
-      $currentPage = "IT";
+      $currentPage = "Programmering";
       include('navigation.php');
      ?>
      <main>
@@ -34,7 +34,7 @@
               }
               echo '<p>'.$value["paragraph"].'</p>';
               if ($value["link"]) {
-                echo '<a href='.$value["link"].' class="tryLink">Try it</a>';
+                echo '<a target="_blank" href='.$value["link"].' class="tryLink">Try it</a>';
               }
             echo '</div>';
           echo '</div>';

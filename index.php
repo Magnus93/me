@@ -1,7 +1,7 @@
 <?php
   $jsondataHome = file_get_contents("data/home.json");
   $jsonHome = json_decode($jsondataHome, true);
-  $jsondataNav = file_get_contents("data/nav_info.json");
+  $jsondataNav = file_get_contents("data/nav.json");
   $jsonNav = json_decode($jsondataNav, true);
 ?>
 
@@ -33,25 +33,13 @@
         echo '<div id="topRight">';
           echo '<h1>'.$jsonHome["name"].'</h1>';
           echo '<h2>'.$jsonHome["subtitle"].'</h2>';
-          echo '<table>';
-          foreach ($jsonHome["contactInfo"] as $value) {
-            echo '<tr>';
-              echo '<td class="icon">';
-                echo '<img src='.$imgPath.$value["icon"].'>';
-              echo '</td>';
-              echo '<td class="info">';
-                echo '<p>'.$value["text"].'</p>';
-              echo '</td>';
-            echo '</tr>';
-          }
-          echo '</table>';
+          echo '<div id="meText">';
+            echo '<p>'.$jsonHome["textInfo"].'</p>';
+          echo '</div>';
         echo '</div>';
+
         ?>
       </div>
-      <div id="meText">
-        <?php
-          echo '<p>'.$jsonHome["textInfo"].'</p>';
-        ?>
       </div>
     </main>
   </body>

@@ -1,7 +1,7 @@
 <?php
   $jsondata = file_get_contents("data/home.json");
   $json = json_decode($jsondata, true);
-  $jsondataNav = file_get_contents("data/nav_info.json");
+  $jsondataNav = file_get_contents("data/nav.json");
   $jsonNav = json_decode($jsondataNav, true);
  ?>
 
@@ -17,7 +17,7 @@
   </head>
   <body>
     <?php
-      $currentPage = "Contact";
+      $currentPage = "Kontakt";
       include('navigation.php');
      ?>
     <main>
@@ -30,7 +30,11 @@
               echo '<img src='.$iconPath.$value["icon"].'>';
             echo '</td>';
             echo '<td class="info">';
-              echo '<p>'.$value["text"].'</p>';
+            if ($value["link"]) {
+              echo '<a href='.$value["link"].'>'.$value["info"].'</a>';
+            } else {
+              echo '<p>'.$value["info"].'</p>';
+            }
             echo '</td>';
           echo '</tr>';
         }

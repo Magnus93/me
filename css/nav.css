@@ -48,12 +48,6 @@ li#selectedPage a {
 }
 
 
-.nav#selectedPage h1 {
-  padding-bottom: 1px;
-  border-bottom: 3px solid var(--complement-col);
-  /*background-color: blue;*/
-}
-
 
 
 li a:hover {

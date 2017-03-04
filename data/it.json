@@ -1,54 +1,65 @@
 [
   {
+    "title": "Min portfolio hemsida",
+    "img": "portfolio.png",
+    "apps": ["PHP", "CSS", "JSON"],
+    "paragraph": "Denna hemsida är helt skriven av mig för att jag ville lära mig PHP."
+  },
+  {
     "title": "Kronk",
-    "img": "placeHolder.png",
+    "img": "Kronk01.png",
     "apps": ["Unity3D", "C#", "3dsMax"],
     "paragraph": "Project made in Unity3D by 6 people and I had the sole task of programming everything in the game"
   },
   {
-    "title": "Matrix Screen",
+    "title": "Wermlandskällar'n - Värmlands Nation",
+    "img": "wermlandKitchen.png",
+    "apps": ["HTML", "Node.js", "Vue.js", "CSS"],
+    "paragraph": "Scrum projekt på universitetet där vi gjorde början till en meny för personalen att beställa Mat och Dryck"
+  },
+  {
+    "title": "Matrix skärm",
     "img": "matrixScreenShot.png",
     "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
-    "paragraph": "Works best in Google Chrome",
+    "paragraph": "Försökte efterlikna Matrix skärmarna med hjälp av HTML5 Canvas. <br><br> <b>OBS:</b> Fungerar bäst i Google Chrome som har bäst drivrutiner för Canvas.",
     "link": "http://magnusgustafsson.com/matrix/"
   },
   {
-    "title": "Sudoku-solver Haskell",
-    "img": "sudoku.png",
-    "apps": ["Haskell"],
-    "paragraph": ""
+    "title": "Flygande julgran",
+    "img": "tannenbaum.png",
+    "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
+    "paragraph": "Spel gjort med Canvas i HTML5. I spelet är man en flygande julgran och ska inte göra annat än att överleva så länge som möjligt.",
+    "link": "http://magnusgustafsson.com/tannenbaum/"
   },
   {
-    "title": "Graph Calculator Python",
-    "img": "GraphCalc.png",
-    "apps": ["Python", "wxPython", "SymPy"],
-    "paragraph": ""
+    "title": "Scottify your English",
+    "img": "scottish.png",
+    "apps": ["HTML", "JavaScript"],
+    "paragraph": "Sidan tar en godyckligt engelsk mening och översätter den skotska.",
+    "link": "http://www.magnusgustafsson.com/scottish/"
   },
   {
     "title": "3D Projection",
     "img": "3dPython.png",
     "apps": ["Python", "PyGame"],
-    "paragraph": "texthere"
+    "paragraph": "Under kursen \"Linjär Algebra\", tyckte jag uppgifterna var för tråkiga och icke-praktiska. Istället skrev jag ett 3D-program i språket jag kunde bäst vid tillfället - Python. Detta använde matte jag härledde från Linjär Algebra kursen."
   },
   {
     "title": "Bumpmap to Normalmap",
     "img": "BumpNormalMap.png",
     "apps": ["Python", "PyGame", "wxPython"],
-    "paragraph": "texthere"
+    "paragraph": "Simpelt program som gör om en valfri bumpmap till en normalmap."
   },
   {
-    "title": "Flying Christmas Tree",
-    "img": "placeHolder.png",
-    "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
-    "paragraph": "texthere",
-    "link": "http://magnusgustafsson.com/tannenbaum/"
+    "title": "Graph Calculator Python",
+    "img": "GraphCalc.png",
+    "apps": ["Python", "wxPython", "SymPy"],
+    "paragraph": "Detta var ett kort universitets-projekt med mig och en vän där vi gjorde en simpel grafräknare."
   },
   {
-    "title": "Scottify your english",
-    "img": "placeHolder.png",
-    "apps": ["HTML", "JavaScript"],
-    "paragraph": "texthere",
-    "link": "http://www.magnusgustafsson.com/scottish/"
+    "title": "Sudoku-solver Haskell",
+    "img": "sudoku.png",
+    "apps": ["Haskell"],
+    "paragraph": "Grupp projekt i det funktionella programmeringsspråket Haskell. Vi gjorde ett spelbart sudoku-spel och inkludera en logisk solver."
   }
-
 ]

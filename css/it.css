@@ -30,6 +30,12 @@
   /*background-color: hotpink;*/
   width: 50%;
   float: right;
+
+}
+
+.infoContainer > p {
+  margin-right: 15px;
+  text-align: justify;
 }
 
 .app {

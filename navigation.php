@@ -1,16 +1,7 @@
 <?php
 
 echo "<nav>";
-  if ("home" == $currentPage) {
-    echo '<a href='.$jsonNav["homeLink"]["link"].' class="nav" id="selectedPage">';
-      echo '<h1 class="nav">';
-        echo $jsonNav["homeLink"]["name"];
-      echo '</h1>';
-    echo '</a>';
-  } else {
     echo '<h1 class="nav"><a href='.$jsonNav["homeLink"]["link"].' class="nav">'.$jsonNav["homeLink"]["name"].'</a></h1>';
-  }
-
   echo '<ul id="pages">';
     foreach ($jsonNav["navLinks"] as $value) {
       if ($value["name"] == $currentPage) {

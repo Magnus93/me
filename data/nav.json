@@ -9,15 +9,15 @@
       "link": "cv/CV_MagnusGustafsson.pdf"
     },
     {
-      "name": "IT",
+      "name": "Programmering",
       "link": "it.php"
     },
     {
-      "name": "Graphics",
+      "name": "Grafik",
       "link": "graphics.php"
     },
     {
-      "name": "Contact",
+      "name": "Kontakt",
       "link": "contact.php"
     }
   ]

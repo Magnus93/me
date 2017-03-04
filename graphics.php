@@ -1,7 +1,7 @@
 <?php
   $jsondata = file_get_contents("data/graphics.json");
   $json = json_decode($jsondata, true);
-  $jsondataNav = file_get_contents("data/nav_info.json");
+  $jsondataNav = file_get_contents("data/nav.json");
   $jsonNav = json_decode($jsondataNav, true);
  ?>
 
@@ -13,13 +13,11 @@
      <title>Magnus Gustafsson - Graphics</title>
      <link rel="stylesheet" href="css/nav.css">
      <link rel="stylesheet" href="css/master.css">
-     <link rel="stylesheet" href="css/3d.css">
-     <script type="text/javascript" src="data/nav_info.json">
-     </script>
+     <link rel="stylesheet" href="css/graphics.css">
    </head>
    <body>
     <?php
-    $currentPage = "Graphics";
+    $currentPage = "Grafik";
     include('navigation.php');
     ?>
      <main>
@@ -42,7 +40,7 @@
             echo '<div class="infoContainer">';
               echo '<h2>'.$value['title'].'</h2>';
               foreach ($value['apps'] as $app) {
-                echo '<img class="appLogo" src='.$appPath.$app.'>';
+                echo '<img class="appLogo" src='.$appPath.$app.' title='.substr($app, 0, -4).'>';
               }
               echo '<p>'.$value["paragraph"].'</p>';
             echo '</div>';
