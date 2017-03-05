@@ -82,3 +82,42 @@ table {
   /*background-color: turquoise;*/
   float: left;
 }
+
+@media only screen and (max-width: 960px) {
+  #topMain {
+    margin: 8px;
+    /*background-color: lightyellow;*/
+    height: 100%;
+    /*height: 50%;*/
+  }
+
+  div#myFace {
+    width: 100%;
+  }
+
+  div#myFace > img {
+    width: 50%;
+    padding: 5% 25%;
+  }
+
+  #topRight {
+    text-align: center;
+    /*background-color: lightgreen;*/
+    width: 100%;
+    height: 100%;
+    float: none;
+    padding-bottom: 4vh;
+  }
+
+  #meText {
+    text-align: justify;
+    width: 94%;
+    margin: 3%;
+    /*background-color: lightblue;*/
+  }
+
+
+
+
+
+}

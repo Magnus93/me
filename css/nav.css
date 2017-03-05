@@ -52,3 +52,10 @@ li#selectedPage a {
 li a:hover {
    background-color: var(--hover-col);
 }
+
+
+@media only screen and (max-width: 960px) {
+  li a {
+    color: black;
+  }
+}
