@@ -31,20 +31,20 @@ nav {
 }
 
 li {
-  font-size: 19px;
+  font-size: 18px;
   float: left;
 }
 
 li a {
    display: block;
    color: white;
-   padding: 12px 23px;
+   padding: 13px 23px;
    text-decoration: none;
 }
 
 li#selectedPage a {
-  padding-bottom: 10px;
-  border-bottom: 3px solid #FF820A;
+  padding-bottom: 9px;
+  border-bottom: 4px solid #FF820A;
   /*background-color: pink;*/
 }
 
@@ -56,6 +56,6 @@ li a:hover {
 
 @media only screen and (max-width: 960px) {
   li a {
-    color: black;
+    /*color: black;*/
   }
 }
