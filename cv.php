@@ -13,16 +13,15 @@
     <link rel="stylesheet" href="css/cv.css">
   </head>
   <body>
-    <?php
-      $currentPage = "CV";
-      include('navigation.php');
-    ?>
     <main>
       <div>
         <iframe src="cv/CV_MagnusGustafsson.pdf">
         </iframe>
       </div>
-
     </main>
+    <?php
+      $currentPage = "CV";
+      include('navigation.php');
+    ?>
   </body>
 </html>

@@ -24,9 +24,6 @@
        $imgPath='img/it/';
         foreach ($jsonIt as $value) {
           echo '<div class="container">';
-            echo '<div class="imgContainer">';
-              echo '<img src='.$imgPath.$value["img"].' class="itImg" >';
-            echo '</div>';
             echo '<div class="infoContainer">';
               echo '<h2>'.$value["title"].'</h2>';
               foreach ($value["apps"] as $app) {
@@ -36,6 +33,9 @@
               if ($value["link"]) {
                 echo '<a target="_blank" href='.$value["link"].' class="tryLink">Testa</a>';
               }
+            echo '</div>';
+            echo '<div class="imgContainer">';
+              echo '<img src='.$imgPath.$value["img"].' class="itImg" >';
             echo '</div>';
           echo '</div>';
           //echo '<p>'.$value["paragraph"].'</p>';

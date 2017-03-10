@@ -31,7 +31,7 @@
             echo '</td>';
             echo '<td class="info">';
             if ($value["link"]) {
-              echo '<a href='.$value["link"].'>'.$value["info"].'</a>';
+              echo '<p><a href='.$value["link"].'>'.$value["info"].'</a></p>';
             } else {
               echo '<p>'.$value["info"].'</p>';
             }

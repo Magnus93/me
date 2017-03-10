@@ -28,27 +28,78 @@ nav {
   overflow: hidden;
   float:right;
   margin: 0;
+  background-color: var(--nav-col);
 }
 
 li {
-  font-size: 21px;
+  font-size: 18px;
   float: left;
 }
 
 li a {
    display: block;
    color: white;
-   padding: 11px 30px;
+   padding: 13px 23px;
    text-decoration: none;
 }
 
 li#selectedPage a {
-  padding-bottom: 8px;
-  border-bottom: 3px solid #FF820A;
+  padding-bottom: 9px;
+  border-bottom: 4px solid #FF820A;
   /*background-color: pink;*/
 }
 
 
 li a:hover {
    background-color: var(--hover-col);
+}
+
+.burger {
+  display: none;
+}
+
+@media only screen and (max-width: 960px) {
+  li a {
+    /*color: black;*/
+  }
+  #pages li:not(:first-child) {display: none;}
+  #pages > li{
+    font-size: 20px;
+    height: 50px;
+  }
+  #pages li.burger {
+    display: block;
+  }
+
+  #pages.responsive {position: relative;}
+  #pages.responsive li.burger > a{
+    position: fixed;
+    right: 0;
+    top: 0;
+    /*background-color: green;*/
+  }
+  #pages.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+  }
+
+  #pages.responsive li {
+    float: none;
+    width: 100vw;
+    display: block;
+    text-align: center;
+
+  }
+  li#selectedPage a {
+    padding-bottom: 12px;
+    border-bottom: none;
+    text-decoration: underline overline;
+    text-decoration-color: var(--complement-col);
+
+    /*border-top: 1px solid black;*/
+    /*font-weight: 800;*/
+    /*color: var(--complement-col);*/
+    /*background-color: pink;*/
+  }
 }
