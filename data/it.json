@@ -2,8 +2,8 @@
   {
     "title": "Min portfolio hemsida",
     "img": "portfolio.png",
-    "apps": ["PHP", "CSS", "JSON"],
-    "paragraph": "Detta är min portfolio-hemsida där jag visar mina projekt."
+    "apps": ["PHP", "CSS", "JSON", "JavaScript"],
+    "paragraph": "Detta är min portfolio-hemsida där jag visar mina projekt. Jag har gjort sidan responsive så att den fungerar för mindre mobilskärmar också. Prova genom att minska bredden på webbläsaren."
   },
   {
     "title": "Kronk",
