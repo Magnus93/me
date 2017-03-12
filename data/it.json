@@ -9,13 +9,13 @@
     "title": "Kronk",
     "img": "Kronk01.png",
     "apps": ["Unity3D", "C#", "3dsMax"],
-    "paragraph": "Första projekt i Unity3D och första erfarenheten med C# där jag hade hela ansvaret att skriva logiken för spelet, detta innebär b.l.a. stryra spelaren, få kameran att föja spelaren med mjuka rörelser, hålla reda på spelarns poäng och liv m.m."
+    "paragraph": "Första projekt i Unity3D och första erfarenheten med C# där jag hade hela ansvaret att skriva logiken för spelet, detta innebär bl.a. styra spelaren, få kameran att följa spelaren med mjuka rörelser, hålla reda på spelarens poäng och liv m.m."
   },
   {
     "title": "Wermlandskällar'n - Värmlands Nation",
     "img": "wermlandKitchen.png",
     "apps": ["HTML", "Node.js", "Vue.js", "CSS"],
-    "paragraph": "Scrum projekt på universitetet där vi gjorde början till en meny för personalen att beställa Mat och Dryck"
+    "paragraph": "Scrum-projekt på universitetet där vi gjorde början till en meny för personalen att beställa Mat och Dryck."
   },
   {
     "title": "Matrix skärm",
@@ -28,27 +28,27 @@
     "title": "Flygande julgran",
     "img": "tannenbaum.png",
     "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
-    "paragraph": "Spel gjort med Canvas i HTML5. I spelet är man en flygande julgran och ska inte göra annat än att överleva så länge som möjligt.",
+    "paragraph": "Detta är ett spel jag gjort med Canvas i HTML5. Spelaren är en flygande julgran som ska överleva så länge som möjligt.",
     "link": "http://magnusgustafsson.com/tannenbaum/"
   },
   {
     "title": "Scottify your English",
     "img": "scottish.png",
     "apps": ["HTML", "JavaScript"],
-    "paragraph": "Sidan tar en godyckligt engelsk mening och översätter den skotska.",
+    "paragraph": "Sidan tar en godtyckligt engelsk mening och översätter den skotska.",
     "link": "http://www.magnusgustafsson.com/scottish/"
   },
   {
     "title": "3D Projection",
     "img": "3dPython.png",
     "apps": ["Python", "PyGame"],
-    "paragraph": "Under kursen \"Linjär Algebra\", tyckte jag uppgifterna var för tråkiga och icke-praktiska. Istället skrev jag ett 3D-program i språket jag kunde bäst vid tillfället - Python. Detta använde matte jag härledde från Linjär Algebra kursen."
+    "paragraph": "Under kursen \"Linjär Algebra\", tyckte jag uppgifterna var för icke-praktiska. Jag skrev då ett 3D-renderingsprogram för att lära mig matematiken i kursen på ett roligt och mer praktiskt sätt. Detta fungerade bra och jag klarade kursen med högsta betyg."
   },
   {
     "title": "Bumpmap to Normalmap",
     "img": "BumpNormalMap.png",
     "apps": ["Python", "PyGame", "wxPython"],
-    "paragraph": "Simpelt program som gör om en valfri bumpmap till en normalmap."
+    "paragraph": "Detta är ett simpelt program som gör om en valfri bumpmap till en normalmap."
   },
   {
     "title": "Graph Calculator Python",
@@ -60,6 +60,6 @@
     "title": "Sudoku-solver Haskell",
     "img": "sudoku.png",
     "apps": ["Haskell"],
-    "paragraph": "Grupp projekt i det funktionella programmeringsspråket Haskell. Vi gjorde ett spelbart sudoku-spel och inkludera en logisk solver."
+    "paragraph": "Grupp-projekt i det funktionella programmeringsspråket Haskell. Vi gjorde ett spelbart sudokuspel och inkludera en logisk solver."
   }
 ]
