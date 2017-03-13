@@ -37,9 +37,7 @@
             echo '<p>'.$jsonHome["textInfo"].'</p>';
           echo '</div>';
         echo '</div>';
-
         ?>
-      </div>
       </div>
     </main>
   </body>

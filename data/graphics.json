@@ -16,17 +16,17 @@
 		},
 		{
 			"type": "vid",
-			"title": "Katastrof nyhetssändning",
+			"title": "Katastrof-nyhetssändning",
 			"src": ["https://www.youtube.com/embed/jK8pVUm_wgc?ecver=2", "https://www.youtube.com/embed/vuAbdjaIdfw?ecver=2"],
 			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png", "AfterEffects.png", "Premiere.png"],
-			"paragraph": "Detta var ett skolprojekt där vi skulle skapa en nyhetssändning där en katastrof sker. Vi valde att soviet invaderar Göteborg under 70-talet. <br><br>Det nedre klippet var det jag som hade ansvar för och fixade det mesta på."
+			"paragraph": "Detta var ett skolprojekt där vi skulle skapa en nyhetssändning där en katastrof sker. Vi valde att Sovjet invaderar Göteborg under 70-talet. <br><br>Det nedre klippet var det jag som hade ansvar för och fixade det mesta på."
 		},
 		{
 			"type": "vid",
 			"title": "TOR-Projekt",
 			"src": ["https://www.youtube.com/embed/ENte7Ezu6nQ?ecver=2", "https://www.youtube.com/embed/Qf857cWFqSM?ecver=2"],
 			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png"],
-			"paragraph": "I detta grupp-projekt animerade jag b.l.a. roboten som synns på den nedre klippet."
+			"paragraph": "I detta grupp-projekt animerade jag bl.a. roboten som syns på det nedre klippet."
 		},
 		{
 			"type": "img",
@@ -40,7 +40,7 @@
 			"title": "Carlsburg",
 			"src": ["https://www.youtube.com/embed/b6Z4BRuw-20?ecver=2"],
 			"apps":["3dsMax.png","V-Ray.png", "Photoshop.png", "AfterEffects.png"],
-			"paragraph": "Mitt försök att efterlikna den klassiska Carlsburg-stilen"
+			"paragraph": "Mitt försök att efterlikna den klassiska Carlsburg-stilen."
 		},
 		{
 			"type": "vid",
@@ -82,7 +82,7 @@
 			"title": "IT",
 			"src": ["IT_button.png", "IT_laptop01.png", "IT_laptop02.png"],
 			"apps":["Inkscape.png"],
-			"paragraph": "IT-sektionen på Uppsala Universitet behövde en ny officiel logga, så jag skickade in de här förslagen."
+			"paragraph": "IT-sektionen på Uppsala Universitet behövde en ny officiell logga, så jag skickade in de här förslagen."
 		},
 		{
 			"type": "img",
@@ -96,7 +96,7 @@
 			"title": "CAD-visualization",
 			"src": ["Helmet.png", "Mouse.png"],
 			"apps":["3dsMax.png", "V-Ray.png", "Photoshop.png"],
-			"paragraph": "Detta var en uppgift att visualisera redan gjorda CAD-objekt. Så jag har inte medellerat objekten. Men jag har materialsatt, belyst, renderat och photoshopat dem."
+			"paragraph": "Detta var en uppgift att visualisera redan gjorda CAD-objekt. Jag har materialsatt, belyst, renderat och photoshopat dem."
 		}
 	]
 }

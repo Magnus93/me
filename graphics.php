@@ -26,6 +26,13 @@
         $appPath='img/app_logos/';
         foreach ($json['img3D'] as $value) {
           echo '<div class="container">';
+            echo '<div class="infoContainer">';
+              echo '<h2>'.$value['title'].'</h2>';
+              foreach ($value['apps'] as $app) {
+                echo '<img class="appLogo" src='.$appPath.$app.' title='.substr($app, 0, -4).'>';
+              }
+              echo '<p>'.$value["paragraph"].'</p>';
+            echo '</div>';
             echo '<div class="imgContainer">';
             if ($value["type"] == "img" ) {
               foreach ($value["src"] as $img) {
@@ -36,13 +43,6 @@
                 echo '<iframe src='.$vid.'></iframe>';
               }
             }
-            echo '</div>';
-            echo '<div class="infoContainer">';
-              echo '<h2>'.$value['title'].'</h2>';
-              foreach ($value['apps'] as $app) {
-                echo '<img class="appLogo" src='.$appPath.$app.' title='.substr($app, 0, -4).'>';
-              }
-              echo '<p>'.$value["paragraph"].'</p>';
             echo '</div>';
           echo '</div>';
         }

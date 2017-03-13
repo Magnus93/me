@@ -43,3 +43,18 @@ h2 {
   margin-top: 0px;
   margin-bottom: 8px;
 }
+
+@media only screen and (max-width: 960px) {
+  body {
+    /*background-color: lightblue;*/
+  }
+  main {
+    width: 100%;
+    border-width: 0;
+    /*background-color: pink;*/
+  }
+
+  h1 {font-size: 6vw;}
+  h2 {font-size: 5vw;}
+  p  {font-size: 3vw;}
+}
