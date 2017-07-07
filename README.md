@@ -1,17 +1,18 @@
-#In General 
+# In General 
 - Make nav responsive
+- Add English as optional language
+- Make better looking nav menu (selected page) for mobile view.
 
+# Home Page
 
-#Home Page
-
-#CV
+# CV
 - Add php to programming languges
 
-#Prog Page
+# Prog Page
 
-#3D Page
+# 3D Page
 - Add hovering box above appLogos
 - James&Thedin Lampor
 - Bil foton
 
-#Contact Page
+# Contact Page
