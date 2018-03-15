@@ -21,22 +21,20 @@
     "title": "Matrix skärm",
     "img": "matrixScreenShot.png",
     "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
-    "paragraph": "Försökte efterlikna Matrix skärmarna med hjälp av HTML5 Canvas. <br><br> <b>OBS:</b> Fungerar bäst i Google Chrome som har bäst drivrutiner för Canvas.",
-    "link": "http://magnusgustafsson.com/matrix/"
+    "paragraph": "Försökte efterlikna Matrix skärmarna med hjälp av HTML5 Canvas.",
+
   },
   {
     "title": "Flygande julgran",
     "img": "tannenbaum.png",
     "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
-    "paragraph": "Detta är ett spel jag gjort med Canvas i HTML5. Spelaren är en flygande julgran som ska överleva så länge som möjligt.",
-    "link": "http://magnusgustafsson.com/tannenbaum/"
+    "paragraph": "Spel jag gjort med Canvas i HTML5. Spelaren är en flygande julgran som ska överleva så länge som möjligt.",
   },
   {
     "title": "Scottify your English",
     "img": "scottish.png",
     "apps": ["HTML", "JavaScript"],
     "paragraph": "Sidan tar en godtyckligt engelsk mening och översätter den skotska.",
-    "link": "http://www.magnusgustafsson.com/scottish/"
   },
   {
     "title": "3D Projection",
