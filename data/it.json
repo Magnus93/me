@@ -21,20 +21,19 @@
     "title": "Matrix skärm",
     "img": "matrixScreenShot.png",
     "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
-    "paragraph": "Försökte efterlikna Matrix skärmarna med hjälp av HTML5 Canvas.",
-
+    "paragraph": "Försökte efterlikna Matrix skärmarna med hjälp av HTML5 Canvas."
   },
   {
     "title": "Flygande julgran",
     "img": "tannenbaum.png",
     "apps": ["HTML", "HTML5 Canvas", "JavaScript"],
-    "paragraph": "Spel jag gjort med Canvas i HTML5. Spelaren är en flygande julgran som ska överleva så länge som möjligt.",
+    "paragraph": "Spel jag gjort med Canvas i HTML5. Spelaren är en flygande julgran som ska överleva så länge som möjligt."
   },
   {
     "title": "Scottify your English",
     "img": "scottish.png",
     "apps": ["HTML", "JavaScript"],
-    "paragraph": "Sidan tar en godtyckligt engelsk mening och översätter den skotska.",
+    "paragraph": "Sidan tar en godtyckligt engelsk mening och översätter den skotska."
   },
   {
     "title": "3D Projection",
